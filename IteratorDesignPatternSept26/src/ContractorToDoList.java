@@ -53,7 +53,7 @@ public class ContractorToDoList {
 		    	tempTodo[i] = todo[i];
 		    }
 		    todo = tempTodo;
-		    return tempTodo;
+		    return todo;
 	}
 		
 }
