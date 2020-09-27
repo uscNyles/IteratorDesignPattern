@@ -26,7 +26,7 @@ public class ToDoIterator implements Iterator{
 	}
 
 	/**
-	 * returns true or false  according to wether there is a valued position 
+	 * returns true or false  according to weather there is a valued position 
 	 * the the right on the given array
 	 */
 	@Override
