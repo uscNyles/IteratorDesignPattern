@@ -1,5 +1,10 @@
 import java.util.ArrayList;
 
+/**
+ * Defines the shape and functions of todos
+ * @author nylesgeiger
+ *
+ */
 public class ToDo {
 
 	private String title;
@@ -8,7 +13,14 @@ public class ToDo {
 	private String contact;
 	private ArrayList<String> supplies;
 	
-
+/**
+ * creates a todo object
+ * @param title
+ * @param description
+ * @param price
+ * @param contact
+ * @param supplies
+ */
 	public ToDo(String title, String description, double price, String contact, ArrayList<String> supplies) {
 		super();
 		this.title = title;
@@ -18,10 +30,17 @@ public class ToDo {
 		this.supplies = supplies;
 	}
 	
+	/**
+	 * returns the price of the todo
+	 * @return
+	 */
 	public double getPrice(){
 		return price;
 	}
 	
+	/**
+	 * returns the characteristics of the todo in a string form.
+	 */
 	public String toString() {
 		String suppliesString = "";
 		
