@@ -23,12 +23,12 @@ public class ToDo {
 	}
 	
 	public String toString() {
-		String suppliesString = null;
+		String suppliesString = "";
 		
 		for (String supply: supplies) {
-			suppliesString += " "+supply;
+			suppliesString += "-"+supply+"\n";
 		}
 		
-		return "Title: " + title +", Description "+ description +" "+ contact +" "+ suppliesString +" "+ price;
+		return  title +"\n"+ description +"\n"+"Business Contact: "+ contact +"\n"+ "Supply List:\n" + suppliesString +"\n"+ price;
 	}
 }
